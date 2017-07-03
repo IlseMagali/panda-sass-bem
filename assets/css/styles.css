@@ -1,0 +1,155 @@
+/* functions*/
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.col-1-offset {
+  margin-left: 8.33333%; }
+
+.col-2-offset {
+  margin-left: 16.66667%; }
+
+.col-3-offset {
+  margin-left: 25%; }
+
+.col-4-offset {
+  margin-left: 33.33333%; }
+
+.col-5-offset {
+  margin-left: 41.66667%; }
+
+.col-6-offset {
+  margin-left: 50%; }
+
+.col-7-offset {
+  margin-left: 58.33333%; }
+
+.col-8-offset {
+  margin-left: 66.66667%; }
+
+.col-9-offset {
+  margin-left: 75%; }
+
+.col-10-offset {
+  margin-left: 83.33333%; }
+
+.col-11-offset {
+  margin-left: 91.66667%; }
+
+.col-12-offset {
+  margin-left: 100%; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #7F7100; }
+
+header {
+  width: 100%;
+  background-color: #FF390E; }
+
+.navbar {
+  width: 100%;
+  margin-top: 0.5em;
+  margin-left: 0.5em; }
+  .navbar .navbar__list {
+    width: 100%;
+    list-style: none; }
+    .navbar .navbar__list .navbar__item {
+      display: inline-block;
+      margin: 0.5em; }
+      .navbar .navbar__list .navbar__item a {
+        text-decoration: none;
+        color: #fff; }
+      .navbar .navbar__list .navbar__item a:hover {
+        color: grey; }
+
+.infobox {
+  padding: 1em; }
+  .infobox .infobox__paragraph {
+    border-bottom: solid 3px #FF390E;
+    border-style: double;
+    color: #fff;
+    padding: 2em; }
+
+.infotabs {
+  padding: 1em; }
+  .infotabs .infotabs__btn {
+    background-color: #FF390E;
+    border: none;
+    padding: 1em;
+    width: 100%;
+    color: #fff;
+    cursor: pointer; }
+
+.btn-close {
+  position: absolute;
+  background-color: #fff;
+  font-size: 1em;
+  padding: 0.33333em;
+  cursor: pointer; }
+
+.gallery__item {
+  display: flex;
+  justify-content: center; }
+  .gallery__item .gallery__item--active {
+    border: 10px solid #FF390E; }
+
+footer {
+  background-color: #FF390E;
+  color: #fff;
+  width: 100%;
+  padding: 1em; }
+
+/*# sourceMappingURL=styles.css.map */
