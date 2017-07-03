@@ -35,6 +35,13 @@ header {
 	}
 }
 
+#text-one {
+	visibility: hidden;
+}
+#text-two {
+	visibility: hidden;
+}
+
 .infotabs {
 	@include infotabs;
 	.infotabs__btn {
@@ -45,10 +52,12 @@ header {
 .btn-close {
 	@include btn-close;
 }
-
+.gallery {
+	@include gallery;
+}
 .gallery__item {
 	@include gallery-item;
-	.gallery__item--active {
+	.gallery__img--active {
 		border: 10px solid $background-orange;
 	}
 }
