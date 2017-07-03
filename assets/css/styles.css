@@ -123,6 +123,12 @@ header {
     color: #fff;
     padding: 2em; }
 
+#text-one {
+  visibility: hidden; }
+
+#text-two {
+  visibility: hidden; }
+
 .infotabs {
   padding: 1em; }
   .infotabs .infotabs__btn {
@@ -140,10 +146,13 @@ header {
   padding: 0.33333em;
   cursor: pointer; }
 
+.gallery {
+  display: block; }
+
 .gallery__item {
   display: flex;
   justify-content: center; }
-  .gallery__item .gallery__item--active {
+  .gallery__item .gallery__img--active {
     border: 10px solid #FF390E; }
 
 footer {
