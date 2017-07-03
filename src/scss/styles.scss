@@ -1,0 +1,60 @@
+@import '__variables';
+@import '__function';
+@import '__grid';
+@import '__mixins';
+
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: $background-green;
+}
+
+header {
+	width:$full-width;
+	background-color: $background-orange;
+}
+
+.navbar {
+	@include navbar;
+	.navbar__list {
+		@include navbar__list;
+		.navbar__item {
+			@include navbar__item;
+		}
+	}
+}
+
+.infobox {
+	@include infobox;
+	.infobox__paragraph {
+		@include infobox__paragraph;
+	}
+}
+
+.infotabs {
+	@include infotabs;
+	.infotabs__btn {
+		@include infotabs__btn;
+	}
+}
+
+.btn-close {
+	@include btn-close;
+}
+
+.gallery__item {
+	@include gallery-item;
+	.gallery__item--active {
+		border: 10px solid $background-orange;
+	}
+}
+footer {
+	background-color: $background-orange;
+	color:$color-font-white;
+	width: $full-width;
+	padding:1em;
+}

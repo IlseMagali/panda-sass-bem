@@ -1,0 +1,58 @@
+@mixin navbar {
+	width:$full-width;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+@mixin navbar__list {
+	width:$full-width;
+	list-style:$none-bullets;
+}
+
+@mixin navbar__item {
+	display: inline-block;
+	margin:0.5em;
+	a {
+		text-decoration: none;
+		color:$color-font-white;
+	}
+	a:hover {
+		color:$color-font-hover;
+	}
+}
+
+@mixin infotabs {
+	padding:$size-one-em;
+}
+
+@mixin infotabs__btn {
+	background-color: $background-orange;
+	border:none;
+	padding: $size-one-em;
+	width: $full-width;
+	color:$color-font-white;
+	cursor: pointer;
+}
+
+@mixin infobox {
+	padding:$size-one-em;
+}
+
+@mixin infobox__paragraph {
+	border-bottom: solid 3px $background-orange;
+	border-style: double;
+	color:$color-font-white;
+	padding: $size-two-em;
+}
+@mixin btn-close{
+  position: absolute;
+  background-color: $color-font-white;
+  font-size: $size-one-em;
+  padding: $size-one-em/3;
+  cursor: pointer;
+}
+
+@mixin gallery-item {
+	display:flex;
+	justify-content: center;
+}
